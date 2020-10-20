@@ -37,7 +37,7 @@
                     <img alt="" class="mx-auto d-block" height="80" src="{{ vacancy.picture }}" width="80">
                     <div class="card-body">
                         <p class="card-text mb-2">{{ vacancy.title }}</p>
-                        <p class="card-text"><a href="#">{{ vacancy.count }} вакансий</a></p>
+                        <p class="card-text"><a href="vacancies/cat/{{ vacancy.code }}">{{ vacancy.count }} вакансий</a></p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     </a>
                     <div class="card-body">
                         <p class="card-text mb-2">{{ company.name }}</p>
-                        <p class="card-text"><a href="#">{{ company.count }} вакансий</a></p>
+                        <p class="card-text"><a href="companies/{{ company.id }}">{{ company.count }} вакансий</a></p>
                     </div>
                 </div>
             </div>
